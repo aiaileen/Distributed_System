@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Dictionary">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="10" bottom="30" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="489"/>
+    </constraints>
+    <properties>
+      <background color="-4400660"/>
+      <minimumSize width="550" height="450"/>
+      <preferredSize width="550" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="8ba89" binding="topPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="500" height="70"/>
+            <maximum-size width="500" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4400660"/>
+          <toolTipText value=""/>
+        </properties>
+        <border type="empty" title="Hey~It's Your Dictionary" title-justification="2" title-position="2">
+          <font name="Zapfino" size="22" style="1"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="243" binding="bottomPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="20" bottom="30" right="30"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="200"/>
+            <preferred-size width="500" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4400660"/>
+        </properties>
+        <border type="empty">
+          <font/>
+        </border>
+        <children>
+          <component id="88e12" class="javax.swing.JTextArea" binding="outputField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="435" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1379585"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="52e31" binding="middlePanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="20" bottom="0" right="30"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="600" height="450"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4400660"/>
+        </properties>
+        <border type="empty" title="    Meanings are..." title-justification="1" title-position="6">
+          <font name="Lucida Calligraphy" style="2"/>
+        </border>
+        <children>
+          <component id="a86d8" class="javax.swing.JButton" binding="searchButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4400660"/>
+              <font name="Luminari" size="16"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Search"/>
+            </properties>
+          </component>
+          <component id="29cd3" class="javax.swing.JButton" binding="addButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4400660"/>
+              <font name="Luminari" size="16"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="b30be" class="javax.swing.JButton" binding="removeButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4400660"/>
+              <font name="Luminari" size="16"/>
+              <text value="Remove"/>
+            </properties>
+          </component>
+          <component id="ed1c0" class="javax.swing.JTextField" binding="inputField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="130" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1379585"/>
+              <enabled value="true"/>
+              <font name="Palatino Linotype"/>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="60d56" class="javax.swing.JLabel" binding="welcomeLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4400660"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
